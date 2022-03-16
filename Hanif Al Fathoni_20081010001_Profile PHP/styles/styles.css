@@ -1,0 +1,169 @@
+body {
+  background-color: #062705;
+  font-family: Poppins;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.top-nav {
+  background-color: #224229;
+  overflow: hidden;
+}
+
+.top-nav a {
+  float: left;
+  color: #ceeccd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.top-nav a:hover {
+  background-color: #ceeccd;
+  color: #062705;
+  font-size: 17px;
+}
+
+.top-nav a.active {
+  background-color: #c5f061;
+  color: #062705;
+  font-weight: 600;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url('../images/bg-image.jpg');
+  background-size: 1800px;
+}
+
+.jumbotron-profile {
+  border: 3px solid #062705;
+  border-radius: 100%;
+  width: 200px;
+}
+
+.h1-jumbotron {
+  color: #c5f061;
+  font-weight: 500;
+}
+
+.h5-jumbotron {
+  color:#ceeccd;
+  font-family: Helvetica;
+  font-weight: 700;
+}
+
+.padding-div-top {
+  padding-top: 100px;
+}
+
+.padding-div-bottom {
+  padding-bottom: 80px;
+}
+
+.div {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.div-color {
+  background-color:#224229;
+}
+
+.div-title {
+  color: #ceeccd;
+  font-weight: 500;
+}
+
+.h3-tentang {
+  color:#c5f061;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.div-h3 {
+  color: #c5f061;
+  font-weight: 500;
+}
+
+.div-p {
+  color: #ceeccd;
+}
+
+.div-padding {
+  padding-top: 5px;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #c5f061;
+  width: 75%;
+  table-layout: fixed;
+}
+
+.th {
+  color: #062705;
+  font-weight: 500;
+  border: 1px solid #c5f061;
+  padding: 10px;
+  background-color: #c5f061;
+}
+
+.td {
+  color: #ceeccd;
+  border: 1px solid #c5f061;
+  padding: 10px;
+}
+
+.div-h5 {
+  color: #ceeccd;
+  font-family: Helvetica;
+  font-weight: 600;
+}
+
+.div-footer {
+  text-align: center;
+  background-color: #062705;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.h5-footer {
+  color: #c5f061;
+  font-weight: 500;
+}
+
+.form {
+  padding: 20px;
+  color: #c5f061;
+}
+
+input[type=text], textarea {
+  background-color: #224229;
+  color: #c5f061;
+  border: 2px solid #c5f061;
+  border-radius: 4px;
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 75%;
+  background-color: #c5f061;
+  color: #062705;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 50px;
+}
